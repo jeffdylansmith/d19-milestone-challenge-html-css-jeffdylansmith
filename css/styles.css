@@ -1,0 +1,109 @@
+body{
+	background: linear-gradient(to bottom right, white, #626160); 
+	opacity:.9;
+}
+
+.header{
+	color: white;
+	border-bottom:5px solid #54ff9f;
+	position: fixed;
+	top:0px;
+	margin-bottom: 50px;
+	width: 100%;
+	background-color: #626160;
+	opacity:1;
+	z-index: 1000;
+	padding-left: 10px;
+}
+
+#bio{
+	background-color: white;
+	margin:5% 10%;
+	border-radius:25px;
+	padding:2% 5% 5% 3%;
+	margin-top: 7em;
+	clear:both;
+}
+
+#aboutMe {
+	margin:.5em;
+}
+
+#bio img {
+	width:115px;
+	height:160px;
+	float:left;
+	margin:.2em;
+	overflow: auto;
+	padding-right: 5%;
+}
+
+#bio h3 {
+	padding-left: 1em;
+}
+
+#interests {
+	background-color: white;
+	margin:5% 10%;
+	border-radius:25px;
+	padding:2% 5% 5% 3%;
+	margin-top: 3em;
+}
+
+#interests img {
+	height:4em;
+	width:4em;
+	margin:auto;
+	margin-left: 1.5em;
+}
+
+#interests img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+.blogdiv {
+	clear:both;
+}
+
+.articles {
+	background-color: white;
+	opacity: .9;
+	padding:5% 10% 10% 4%;
+	margin: 5% 10%;
+	border-radius: 25px;
+}
+
+.articles footer {
+	padding-left: .5em;
+}
+
+.articles header {
+	padding-left: .5em;
+	height:100%;
+	width:100%;
+}
+
+.pagefooter {
+	background-color: pink;
+	height: 100%;
+	width:100%;
+	color:black;
+	display: block;
+}
+
+.pagefooter p {
+	text-align: center;
+}
+
+.pagefooter img {
+	height: 1em;
+	width:1em;
+}
+
+.articles header {
+	background-color: pink;
+}
+
+
+
